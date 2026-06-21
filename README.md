@@ -2,18 +2,16 @@
 
 > A community workspace plugin for [Obsidian](https://obsidian.md) — manage projects, tasks, assignments, college work, and office work all in one place, with calendar views, time tracking, and Pomodoro focus sessions.
 
-![VaultBoard Banner](https://raw.githubusercontent.com/viabledev/vaultboard/main/assets/banner.png)
+## Features
 
-## ✨ Features
-
-### 🗂️ Project Management
+### Project Management
 - **Categorized projects** — Personal, College, Work, Assignment, Other
 - Color-coded project cards with custom icons and progress tracking
 - Project status lifecycle: Active → Paused → Completed → Archived
 - Filter and sort by category and status
 - Due dates, tags, and task count per project
 
-### ✅ Task Management
+### Task Management
 - Rich task creation — title, description, priority, due date, tags, time estimate
 - Four statuses: To Do, In Progress, Review, Done (+ Cancelled)
 - Four priority levels: Low, Medium, High, Urgent
@@ -21,14 +19,14 @@
 - Task notes for additional context and references
 - Quick complete toggle directly from any view
 
-### 📅 Calendar View
+### Calendar View
 - Monthly calendar grid with task indicators
 - Color-coded dots (pending, done) per day
 - Click any day to see and manage its tasks
 - Month-level completion summary
 - Overdue day highlighting
 
-### 📊 Analytics
+### Analytics
 - Daily task completion bar chart (last 7 days)
 - Time spent per project (horizontal bar chart)
 - Task status breakdown
@@ -36,20 +34,20 @@
 - Productivity streak counter
 - Recent activity feed
 
-### 🍅 Pomodoro Focus Timer
+### Pomodoro Focus Timer
 - Configurable work/short break/long break durations
 - Visual progress bar and session counter
 - Desktop notifications on session end
 - Auto-logs completed sessions as time entries
 - Persistent across view navigation
 
-### 🌐 Community Templates
+### Community Templates
 - 5 built-in templates: Semester Study Plan, Work Sprint, Research Paper, Personal Goals, Freelance Project
 - Import any template shared as JSON
 - Export your own projects as shareable templates
 - Copy to clipboard for easy sharing
 
-### ⌨️ Commands & Keyboard Shortcuts
+### Commands & Keyboard Shortcuts
 All commands are accessible via the Obsidian Command Palette (`Ctrl/Cmd + P`):
 
 | Command | Description |
@@ -62,7 +60,7 @@ All commands are accessible via the Obsidian Command Palette (`Ctrl/Cmd + P`):
 | `Go to Calendar` | Navigate to calendar |
 | `Go to Analytics` | Navigate to analytics |
 
-## 📦 Installation
+## Installation
 
 ### From Obsidian Community Plugins (Recommended)
 1. Open Obsidian → **Settings → Community Plugins**
@@ -83,7 +81,7 @@ npm run build
 ```
 Copy `main.js`, `styles.css`, and `manifest.json` into `.obsidian/plugins/vaultboard/`.
 
-## 🚀 Quick Start
+## Quick Start
 
 1. Click the **VaultBoard** icon in the left ribbon (grid icon)
 2. Create your first project — choose a category, color, and icon
@@ -93,7 +91,7 @@ Copy `main.js`, `styles.css`, and `manifest.json` into `.obsidian/plugins/vaultb
 6. Use the **Pomodoro timer** in the sidebar to stay focused
 7. Check **Analytics** to track your productivity over time
 
-## ⚙️ Configuration
+## Configuration
 
 Open **Settings → VaultBoard** to configure:
 
@@ -105,7 +103,7 @@ Open **Settings → VaultBoard** to configure:
 - **Data export** — export all data as JSON
 - **Clear all data** — permanently reset (use with caution)
 
-## 🌐 Community & Contributing
+## Community & Contributing
 
 VaultBoard is community-driven. We welcome:
 
@@ -114,10 +112,6 @@ VaultBoard is community-driven. We welcome:
 - **Pull requests** — See [CONTRIBUTING.md](CONTRIBUTING.md)
 - **Template sharing** — Share your exported project templates in [Discussions](https://github.com/viabledev/vaultboard/discussions)
 
-## 📄 License
+## License
 
 MIT License — see [LICENSE](LICENSE) for details.
-
----
-
-Made with ❤️ for the Obsidian community
