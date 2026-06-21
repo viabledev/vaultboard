@@ -1,0 +1,30 @@
+{
+  "name": "vaultboard",
+  "version": "1.0.0",
+  "description": "A community workspace Obsidian plugin for managing all your work",
+  "main": "main.js",
+  "scripts": {
+    "dev": "node esbuild.config.mjs",
+    "build": "tsc -noEmit -skipLibCheck && node esbuild.config.mjs production",
+    "version": "node version-bump.mjs && git add manifest.json versions.json"
+  },
+  "keywords": [
+    "obsidian",
+    "plugin",
+    "task-management",
+    "productivity",
+    "calendar",
+    "pomodoro",
+    "workspace"
+  ],
+  "author": "VaultBoard Contributors",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^16.11.6",
+    "builtin-modules": "3.3.0",
+    "esbuild": "0.20.0",
+    "obsidian": "latest",
+    "tslib": "2.6.0",
+    "typescript": "5.3.3"
+  }
+}

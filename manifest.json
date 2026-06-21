@@ -1,0 +1,11 @@
+{
+  "id": "vaultboard",
+  "name": "VaultBoard",
+  "version": "1.0.0",
+  "minAppVersion": "1.4.0",
+  "description": "A community workspace for managing projects, tasks, assignments, college work, and office work with calendar views, time tracking, and Pomodoro focus sessions.",
+  "author": "VaultBoard Contributors",
+  "authorUrl": "https://github.com/vaultboard-plugin/vaultboard",
+  "fundingUrl": "",
+  "isDesktopOnly": false
+}
