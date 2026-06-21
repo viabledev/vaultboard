@@ -2,7 +2,7 @@
 
 > A community workspace plugin for [Obsidian](https://obsidian.md) — manage projects, tasks, assignments, college work, and office work all in one place, with calendar views, time tracking, and Pomodoro focus sessions.
 
-![VaultBoard Banner](https://raw.githubusercontent.com/vaultboard-plugin/vaultboard/main/assets/banner.png)
+![VaultBoard Banner](https://raw.githubusercontent.com/devakollam/vaultboard/main/assets/banner.png)
 
 ## ✨ Features
 
@@ -70,13 +70,13 @@ All commands are accessible via the Obsidian Command Palette (`Ctrl/Cmd + P`):
 3. Click **Install**, then **Enable**
 
 ### Manual Installation
-1. Download the [latest release](https://github.com/vaultboard-plugin/vaultboard/releases/latest)
+1. Download the [latest release](https://github.com/devakollam/vaultboard/releases/latest)
 2. Extract `main.js`, `styles.css`, and `manifest.json` into your vault's `.obsidian/plugins/vaultboard/` folder
 3. Reload Obsidian and enable the plugin under **Settings → Community Plugins**
 
 ### Building from Source
 ```bash
-git clone https://github.com/vaultboard-plugin/vaultboard.git
+git clone https://github.com/devakollam/vaultboard.git
 cd vaultboard
 npm install
 npm run build
@@ -109,10 +109,10 @@ Open **Settings → VaultBoard** to configure:
 
 VaultBoard is community-driven. We welcome:
 
-- **Bug reports** — [Open an issue](https://github.com/vaultboard-plugin/vaultboard/issues)
-- **Feature requests** — [Start a discussion](https://github.com/vaultboard-plugin/vaultboard/discussions)
+- **Bug reports** — [Open an issue](https://github.com/devakollam/vaultboard/issues)
+- **Feature requests** — [Start a discussion](https://github.com/devakollam/vaultboard/discussions)
 - **Pull requests** — See [CONTRIBUTING.md](CONTRIBUTING.md)
-- **Template sharing** — Share your exported project templates in [Discussions](https://github.com/vaultboard-plugin/vaultboard/discussions)
+- **Template sharing** — Share your exported project templates in [Discussions](https://github.com/devakollam/vaultboard/discussions)
 
 ## 📄 License
 

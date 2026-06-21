@@ -49,4 +49,4 @@ The best way to contribute without coding is to share project templates. Export 
 
 ## Questions?
 
-Open a [GitHub Discussion](https://github.com/vaultboard-plugin/vaultboard/discussions) — we're happy to help!
+Open a [GitHub Discussion](https://github.com/devakollam/vaultboard/discussions) — we're happy to help!
